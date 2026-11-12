@@ -1,0 +1,141 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+    "list": [
+      {
+        "activityInfo": {
+          "activityId": "act_20261001",
+          "name": "10月小红书创作者推广计划",
+          "coverUrl": "http://10.236.161.98:8090/bee-earn/act_001_cover.png",
+          "tags": [
+            "创作者推广",
+            "小红书"
+          ],
+          "rewardDisplay": "1-500元/篇",
+          "applyStartTime": 1792490400000,
+          "applyEndTime": 1792960800000,
+          "submitStartTime": 1793047200000,
+          "submitEndTime": 1793894400000,
+          "settleTime": 1795843200000,
+          "applyCount": 10,
+          "applySuccessCount": 8,
+          "applyMaxCount": 30,
+          "platforms": "redbook",
+          "submitRequirements": {
+            "contentType": 2,
+            "requiredTopics": [
+              "小蜜蜂创作者计划"
+            ],
+            "textMinWords": 100,
+            "imageMinCount": 3
+          },
+          "status": 1,
+          "createTime": 1792416000000
+        },
+        "userInfo": {
+          "userId": "u_10001",
+          "nick": "小蜜蜂官方账号",
+          "head": "http://10.236.161.98:8090/avatar.png",
+          "followStatus": 1,
+          "verifyInfo": [
+            {
+              "authText": "官方账号",
+              "authIcon": {
+                "daytime": "http://10.236.161.98:8090/verify-badge.png",
+                "night": "http://10.236.161.98:8090/verify-badge.png",
+                "darkmode": "http://10.236.161.98:8090/verify-badge.png"
+              },
+              "authType": "official",
+              "ts": 1750000000000
+            }
+          ]
+        }
+      },
+      {
+        "activityInfo": {
+          "activityId": "act_20261002",
+          "name": "11月抖音短剧推广",
+          "coverUrl": "http://10.236.161.98:8090/bee-earn/act_002_cover.png",
+          "tags": [
+            "短剧推广"
+          ],
+          "rewardDisplay": "价格面议",
+          "applyStartTime": 1792396800000,
+          "applyEndTime": 1792953600000,
+          "submitStartTime": 1793047200000,
+          "submitEndTime": 1795497600000,
+          "settleTime": 1798435200000,
+          "applyCount": 25,
+          "applySuccessCount": 25,
+          "applyMaxCount": 0,
+          "platforms": "douyin",
+          "submitRequirements": {
+            "contentType": 3,
+            "requiredTopics": [
+              "短剧安利"
+            ],
+            "videoMinSeconds": 15
+          },
+          "status": 3,
+          "createTime": 1791801600000
+        },
+        "userInfo": {
+          "userId": "u_10001",
+          "nick": "小蜜蜂官方账号",
+          "head": "http://10.236.161.98:8090/avatar.png",
+          "followStatus": 1,
+          "verifyInfo": [
+            {
+              "authText": "官方账号",
+              "authIcon": {
+                "daytime": "http://10.236.161.98:8090/verify-badge.png",
+                "night": "http://10.236.161.98:8090/verify-badge.png",
+                "darkmode": "http://10.236.161.98:8090/verify-badge.png"
+              },
+              "authType": "official",
+              "ts": 1750000000000
+            }
+          ]
+        }
+      },
+      {
+        "activityInfo": {
+          "activityId": "act_20260901",
+          "name": "9月美食探店推广",
+          "coverUrl": "http://10.236.161.98:8090/bee-earn/act_003_cover.png",
+          "tags": [
+            "美食探店",
+            "小红书"
+          ],
+          "rewardDisplay": "200-2000元/篇",
+          "applyStartTime": 1787846400000,
+          "applyEndTime": 1788451200000,
+          "submitStartTime": 1788537600000,
+          "submitEndTime": 1790611200000,
+          "settleTime": 1792742400000,
+          "applyCount": 58,
+          "applySuccessCount": 52,
+          "applyMaxCount": 60,
+          "platforms": "redbook",
+          "submitRequirements": {
+            "contentType": 1,
+            "requiredTopics": [
+              "探店日记"
+            ]
+          },
+          "status": 7,
+          "createTime": 1787241600000
+        },
+        "userInfo": {
+          "userId": "u_10002",
+          "nick": "蜂赚美食运营",
+          "head": "http://10.236.161.98:8090/avatar.png",
+          "followStatus": 0,
+          "verifyInfo": []
+        }
+      }
+    ],
+    "total": 3
+  }
+}

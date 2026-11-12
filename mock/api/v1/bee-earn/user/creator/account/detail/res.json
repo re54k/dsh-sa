@@ -1,0 +1,13 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+    "platform": "redbook",
+    "accountId": "xhs_88231001",
+    "nickname": "小白在法国",
+    "avatarUrl": "https://img.example.com/avatar/xhs_88231001.png",
+    "fansCount": 12580,
+    "verifyStatus": 2,
+    "bindTime": 1789000000000
+  }
+}

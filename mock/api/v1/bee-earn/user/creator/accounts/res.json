@@ -1,0 +1,24 @@
+{
+  "code": 0,
+  "message": "",
+  "data": [
+    {
+      "platform": "redbook",
+      "accountId": "xhs_88231001",
+      "nickname": "小白在法国",
+      "avatarUrl": "https://img.example.com/avatar/xhs_88231001.png",
+      "fansCount": 12580,
+      "verifyStatus": 2,
+      "bindTime": 1789000000000
+    },
+    {
+      "platform": "douyin",
+      "accountId": "dy_66120233",
+      "nickname": "你可真是笑死我了",
+      "avatarUrl": "https://img.example.com/avatar/dy_66120233.png",
+      "fansCount": 860,
+      "verifyStatus": 1,
+      "bindTime": 1792600000000
+    }
+  ]
+}

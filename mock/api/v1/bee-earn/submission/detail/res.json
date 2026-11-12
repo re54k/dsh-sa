@@ -1,0 +1,40 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+    "activityInfo": {
+      "activityId": "act_20261001",
+      "name": "10月小红书创作者推广计划",
+      "coverUrl": "https://img.example.com/bee-earn/act_001_cover.png",
+      "tags": ["创作者推广", "小红书"],
+      "rewardDisplay": "1-500元/篇",
+      "applyStartTime": 1792490400000,
+      "applyEndTime": 1792960800000,
+      "submitStartTime": 1793047200000,
+      "submitEndTime": 1793894400000,
+      "settleTime": 1795843200000,
+      "applyCount": 10,
+      "applySuccessCount": 8,
+      "applyMaxCount": 30,
+      "platforms": "redbook",
+      "submitRequirements": {
+        "contentType": 2,
+        "requiredTopics": ["小蜜蜂创作者计划"],
+        "textMinWords": 100,
+        "imageMinCount": 3
+      },
+      "status": 3,
+      "createTime": 1792416000000
+    },
+    "submissionInfo": {
+      "contentId": "xhs_note_10001",
+      "contentUrl": "https://www.xiaohongshu.com/note/10001",
+      "contentTitle": "大厂实习生必备语录之迷死mentor✨",
+      "coverUrl": "https://img.example.com/bee-earn/note_10001_cover.png",
+      "contentScreenshots": [
+        "https://img.example.com/bee-earn/shot_001.png",
+        "https://img.example.com/bee-earn/shot_002.png"
+      ]
+    }
+  }
+}

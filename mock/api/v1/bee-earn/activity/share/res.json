@@ -1,0 +1,12 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+    "activityId": "act_20261001",
+    "name": "10月小红书创作者推广计划",
+    "coverUrl": "https://img.example.com/bee-earn/act_001_cover.png",
+    "rewardDisplay": "1-500元/篇",
+    "applyTimeText": "10月20日10点-10月25日18点",
+    "qrCodeUrl": "https://img.example.com/bee-earn/qr_act_001.png"
+  }
+}

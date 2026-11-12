@@ -1,0 +1,102 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+    "list": [
+      {
+        "submissionId": "sub_20261001_001",
+        "contentId": "xhs_note_10001",
+        "contentTitle": "大厂实习生必备语录之迷死mentor✨",
+        "coverUrl": "https://img.example.com/bee-earn/note_10001_cover.png",
+        "platform": "redbook",
+        "platformNickname": "小白在法国",
+        "status": 6,
+        "statusLabel": "已通过",
+        "views": 1520,
+        "likes": 230,
+        "estimatedAmount": 1000,
+        "actualAmount": 0,
+        "failReason": "",
+        "failReasonType": "",
+        "publishTime": 1793100000000,
+        "updateDeadlineTime": 1793704800000,
+        "lastUpdateTime": 1793600000000,
+        "createTime": 1793150000000,
+        "cursor": "sub_20261001_002"
+      },
+      {
+        "submissionId": "sub_20261001_002",
+        "contentId": "xhs_note_10002",
+        "contentTitle": "北京炭火烧烤探店实录",
+        "coverUrl": "https://img.example.com/bee-earn/note_10002_cover.png",
+        "platform": "redbook",
+        "platformNickname": "小白在法国",
+        "status": 4,
+        "statusLabel": "复审中",
+        "views": 860,
+        "likes": 96,
+        "estimatedAmount": 500,
+        "actualAmount": 0,
+        "failReason": "",
+        "failReasonType": "",
+        "publishTime": 1793180000000,
+        "updateDeadlineTime": 1793784800000,
+        "lastUpdateTime": 1793690000000,
+        "createTime": 1793230000000,
+        "cursor": "sub_20261001_003"
+      },
+      {
+        "submissionId": "sub_20261001_003",
+        "contentId": "xhs_note_10003",
+        "contentTitle": "新手博主起号避坑指南",
+        "coverUrl": "https://img.example.com/bee-earn/note_10003_cover.png",
+        "platform": "redbook",
+        "platformNickname": "小白在法国",
+        "status": 9,
+        "statusLabel": "截图数据不达标",
+        "views": 120,
+        "likes": 18,
+        "estimatedAmount": 0,
+        "actualAmount": 0,
+        "failReason": "数据不达标：曝光量未达到最低结算标准（需≥500）",
+        "failReasonType": "data",
+        "publishTime": 1793260000000,
+        "updateDeadlineTime": 1793864800000,
+        "lastUpdateTime": 1793690000000,
+        "createTime": 1793310000000,
+        "cursor": ""
+      }
+    ],
+    "total": 3,
+    "activityInfo": {
+      "activityId": "act_20261001",
+      "name": "10月小红书创作者推广计划",
+      "coverUrl": "https://img.example.com/bee-earn/act_001_cover.png",
+      "tags": ["创作者推广", "小红书"],
+      "rewardDisplay": "1-500元/篇",
+      "applyStartTime": 1792490400000,
+      "applyEndTime": 1792960800000,
+      "submitStartTime": 1793047200000,
+      "submitEndTime": 1793894400000,
+      "settleTime": 1795843200000,
+      "applyCount": 10,
+      "applySuccessCount": 8,
+      "applyMaxCount": 30,
+      "platforms": "redbook",
+      "submitRequirements": {
+        "contentType": 2,
+        "requiredTopics": ["小蜜蜂创作者计划"],
+        "textMinWords": 100,
+        "imageMinCount": 3
+      },
+      "status": 3,
+      "createTime": 1792416000000
+    },
+    "submissionStats": {
+      "submissionCount": 3,
+      "machinePassCount": 3,
+      "manualPassCount": 1,
+      "failCount": 0
+    }
+  }
+}

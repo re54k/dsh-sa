@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "skills": {
+    "mf2e-api-scaffold": {
+      "source": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceUrl": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceType": "git",
+      "skillPath": "mf2e-api-scaffold/SKILL.md",
+      "computedHash": "9d31add6a7d14f84dcd65cde433dd00de51fbc431c4eb2d2024d8ac2cf7ae85a"
+    },
+    "mf2e-compare-screenshot": {
+      "source": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceUrl": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceType": "git",
+      "skillPath": "mf2e-compare-screenshot/SKILL.md",
+      "computedHash": "300c82d4ef9165db29bf93e652b90350e8817fd03d6ba8594644e1d71dc0140e"
+    },
+    "mf2e-falcon-rn": {
+      "source": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceUrl": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceType": "git",
+      "skillPath": "mf2e-falcon-rn/SKILL.md",
+      "computedHash": "1f6132a2db7032f44bddf2e686f76e8a75cb2da3a5ed7972d039dcf9023a2287"
+    },
+    "mf2e-figma-classify": {
+      "source": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceUrl": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceType": "git",
+      "skillPath": "mf2e-figma-classify/SKILL.md",
+      "computedHash": "7598d481d8a6a97e49cbe23bf47132e87636bbf9b5eded21d9ffd6aa16e29a03"
+    },
+    "mf2e-figma-implement": {
+      "source": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceUrl": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceType": "git",
+      "skillPath": "mf2e-figma-implement/SKILL.md",
+      "computedHash": "3ff2e3a59fc5f1847fb8905d48fadc9f2f094fcd283f990780ebb0bb51020d7b"
+    },
+    "mf2e-jira-fix": {
+      "source": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceUrl": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceType": "git",
+      "skillPath": "mf2e-jira-fix/SKILL.md",
+      "computedHash": "4f050c3843d16009faebe3d73603d809b81b66927ba0279fbd6c91c7e40e3a83"
+    },
+    "mf2e-mnb-api": {
+      "source": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceUrl": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceType": "git",
+      "skillPath": "mf2e-mnb-api/SKILL.md",
+      "computedHash": "1b6344bab43183e2436aebda624383e01594c94fcd8640132e3a311fc04e0888"
+    },
+    "mf2e-page-flow": {
+      "source": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceUrl": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceType": "git",
+      "skillPath": "mf2e-page-flow/SKILL.md",
+      "computedHash": "f10a0f69469381b1c1e3fa8cce9c9d9591703bf112e89ff24f424ef8fc2c4b95"
+    },
+    "mf2e-prd-merge": {
+      "source": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceUrl": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceType": "git",
+      "skillPath": "mf2e-prd-merge/SKILL.md",
+      "computedHash": "8f33bf9f7ab5cdab32a718e3f81345245d9c285d35807f0cf723cfd90ad665a3"
+    },
+    "mf2e-rn-library": {
+      "source": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceUrl": "https://skills.netease.com/api/git/collections/@mf2e-rn-skills.git",
+      "sourceType": "git",
+      "skillPath": "mf2e-rn-library/SKILL.md",
+      "computedHash": "15138f54d131f06bf15f86ad8f1d4176ba46807cee319bd6dee0c0755841abd0"
+    }
+  }
+}

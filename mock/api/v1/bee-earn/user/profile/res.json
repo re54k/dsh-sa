@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+    "userId": "u_10001",
+    "nickname": "小白在法国",
+    "avatar": "https://img.example.com/avatar/xhs_88231001.png",
+    "beeId": "123456789012345",
+    "phone": "18812345678",
+    "email": "xiaokeai@163.com",
+    "bindAccountInfo": {
+      "redBookCount": 1,
+      "douYinCount": 1
+    }
+  }
+}

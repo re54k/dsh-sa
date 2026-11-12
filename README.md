@@ -1,5 +1,21 @@
-# dsh-sa
+# 1028
 
-Sandbox repository for the `dsh-superagent` agent.
+## 项目地址
 
-Requests arrive as issues or comments that mention `@re54k`; the agent works in its own worktree and opens pull requests against this repository.
+### 线上地址
+
+`ntescommunity://nc/page?id=1028`
+
+### gitlab地址
+
+## 相关链接
+
+### 需求文档
+
+### 交互稿
+
+### 设计稿
+
+### 接口文档
+
+### 埋点文档

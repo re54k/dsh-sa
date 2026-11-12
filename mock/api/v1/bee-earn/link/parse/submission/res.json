@@ -1,0 +1,22 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+    "parseStatus": 1,
+    "failReason": "",
+    "platform": "redbook",
+    "pageType": "content",
+    "accountId": "xhs_88231001",
+    "nickname": "小白在法国",
+    "title": "大厂实习生必备语录之迷死mentor✨",
+    "content": "一人来说个北京好吃的炭火烧烤呗，你们发我马上就到店…",
+    "coverUrl": "https://img.example.com/bee-earn/note_10001_cover.png",
+    "publishTime": 1793100000000,
+    "views": 1520,
+    "likes": 230,
+    "comments": 45,
+    "shares": 12,
+    "collects": 88,
+    "isDeleted": false
+  }
+}

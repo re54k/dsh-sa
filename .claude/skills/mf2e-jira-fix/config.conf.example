@@ -1,0 +1,12 @@
+# mf2e-jira-fix 配置模板 —— 复制为 config.conf 并填入真实信息
+# 注意：config.conf 含明文密码，务必保持权限为 600 (chmod 600 config.conf)
+# 不要把 config.conf 提交到任何 git 仓库
+
+# JIRA 基础地址（不含末尾斜杠）
+jira_base = http://jira.ws.netease.com
+
+# 登录用户名
+username = 你的用户名
+
+# 登录密码（明文）
+password = 你的密码

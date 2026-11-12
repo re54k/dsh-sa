@@ -1,0 +1,65 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+    "activityInfo": {
+      "activityId": "act_20261001",
+      "name": "10月小红书创作者推广计划",
+      "coverUrl": "https://img.example.com/bee-earn/act_001_cover.png",
+      "tags": ["创作者推广", "小红书"],
+      "rewardDisplay": "1-500元/篇",
+      "applyStartTime": 1792490400000,
+      "applyEndTime": 1792960800000,
+      "submitStartTime": 1793047200000,
+      "submitEndTime": 1793894400000,
+      "settleTime": 1795843200000,
+      "applyCount": 10,
+      "applySuccessCount": 8,
+      "applyMaxCount": 30,
+      "platforms": "redbook",
+      "submitRequirements": {
+        "contentType": 2,
+        "requiredTopics": ["小蜜蜂创作者计划"],
+        "textMinWords": 100,
+        "imageMinCount": 3
+      },
+      "status": 3,
+      "createTime": 1792416000000
+    },
+    "groupInfo": {
+      "groupId": "group_9001",
+      "joinStatus": true
+    },
+    "userStatus": {
+      "status": 2,
+      "cannotReason": ""
+    },
+    "submitNotice": "<p>投稿前请仔细阅读投稿要求：内容需为原创图文，携带指定话题发布，发布后回传笔记链接并上传数据截图。<a href=\"https://bee-earn.example.com/notice\">查看完整投稿须知</a></p>",
+    "submissionStats": {
+      "submissionCount": 4,
+      "machinePassCount": 3,
+      "manualPassCount": 2,
+      "failCount": 1
+    },
+    "satisfyStats": [
+      {
+        "label": "曝光量0-500，5元/篇",
+        "count": 1
+      },
+      {
+        "label": "曝光量500-2000，10元/篇",
+        "count": 2
+      },
+      {
+        "label": "曝光量2000-5000，15元/篇",
+        "count": 0
+      }
+    ],
+    "settledAmount": {
+      "totalAmount": 4500,
+      "baseAmount": 2500,
+      "conditionAmount": 2000
+    },
+    "weworkQrUrl": "https://img.example.com/bee-earn/wework_qr.png"
+  }
+}

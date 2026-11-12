@@ -1,0 +1,249 @@
+{
+  "lib": "falcon",
+  "name": "react-native(falcon)",
+  "list": [
+    {
+      "group": "core",
+      "name": "核心插件",
+      "list": [
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-base",
+          "version": "2.0.6",
+          "desc": "基础框架结构",
+          "disabled": "必选",
+          "checked": false,
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-agent",
+          "version": "2.0.4",
+          "desc": "ai agent开发规范",
+          "checked": false,
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-husky",
+          "version": "1.1.8",
+          "desc": "git提交验证",
+          "checked": false,
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-prettier",
+          "version": "1.0.2",
+          "desc": "prettier代码格式化",
+          "checked": false,
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-eslint",
+          "version": "2.0.0",
+          "desc": "eslint代码校验",
+          "checked": false,
+          "peerPlugins": [
+            "@mf2e/cli-plugin-prettier"
+          ],
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-offline",
+          "version": "2.0.4",
+          "desc": "项目离线发布",
+          "checked": false,
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-open",
+          "version": "2.0.2",
+          "desc": "模拟器中打开页面",
+          "checked": false,
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-split",
+          "version": "2.0.4",
+          "desc": "项目拆包(锁定版本react-native@0.70.6)",
+          "checked": false,
+          "peerPlugins": [
+            "@mf2e/cli-plugin-native-falcon-offline"
+          ],
+          "installed": false
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-web",
+          "version": "2.0.9",
+          "desc": "web适配能力支持",
+          "checked": false,
+          "installed": false
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-harmony",
+          "version": "2.1.2",
+          "desc": "鸿蒙支持(锁定版本react-native@0.72.5/0.82.1)",
+          "conflictPlugins": [
+            "@mf2e/cli-plugin-native-falcon-split"
+          ],
+          "checked": false,
+          "installed": false
+        }
+      ]
+    },
+    {
+      "group": "recommend",
+      "name": "推荐插件",
+      "list": [
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-components",
+          "version": "2.2.0",
+          "desc": "常用基础组件",
+          "checked": false,
+          "peerPlugins": [
+            "@mf2e/cli-plugin-native-falcon-store",
+            "@mf2e/cli-plugin-native-falcon-utils",
+            "@mf2e/cli-plugin-native-falcon-theme"
+          ],
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-dialogs",
+          "version": "2.0.2",
+          "desc": "弹窗组件结构",
+          "checked": false,
+          "peerPlugins": [
+            "@mf2e/cli-plugin-native-falcon-store",
+            "@mf2e/cli-plugin-native-falcon-utils",
+            "@mf2e/cli-plugin-native-falcon-theme"
+          ],
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-pages",
+          "version": "2.0.5",
+          "desc": "页面组件结构",
+          "checked": false,
+          "peerPlugins": [
+            "@mf2e/cli-plugin-native-falcon-store",
+            "@mf2e/cli-plugin-native-falcon-utils",
+            "@mf2e/cli-plugin-native-falcon-theme"
+          ],
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-store",
+          "version": "2.0.0",
+          "desc": "全局数据管理",
+          "checked": false,
+          "peerPlugins": [
+            "@mf2e/cli-plugin-native-falcon-utils"
+          ],
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-uses",
+          "version": "2.0.6",
+          "desc": "常用use函数",
+          "checked": false,
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-utils",
+          "version": "2.0.5",
+          "desc": "常用工具类",
+          "checked": false,
+          "installed": true
+        }
+      ]
+    },
+    {
+      "group": "extends",
+      "name": "扩展插件",
+      "list": [
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-theme",
+          "version": "2.0.1",
+          "desc": "日夜间主题样式",
+          "checked": false,
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-font",
+          "version": "2.0.2",
+          "desc": "字体缩放支持",
+          "checked": false,
+          "peerPlugins": [
+            "@mf2e/cli-plugin-native-falcon-utils"
+          ],
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-fetch",
+          "version": "2.0.7",
+          "desc": "统一fetch功能",
+          "checked": false,
+          "peerPlugins": [
+            "@mf2e/cli-plugin-native-falcon-store",
+            "@mf2e/cli-plugin-native-falcon-utils"
+          ],
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-mock",
+          "version": "2.0.4",
+          "desc": "本地mock数据",
+          "checked": false,
+          "peerPlugins": [
+            "@mf2e/cli-plugin-native-falcon-fetch"
+          ],
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-track",
+          "version": "2.0.3",
+          "desc": "埋点统计工具",
+          "checked": false,
+          "peerPlugins": [
+            "@mf2e/cli-plugin-native-falcon-utils"
+          ],
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-lottie",
+          "version": "2.0.7",
+          "desc": "lottie动画库",
+          "checked": false,
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-adapter",
+          "version": "2.0.1",
+          "desc": "页面缩放适配",
+          "peerPlugins": [
+            "@mf2e/cli-plugin-native-falcon-pages",
+            "@mf2e/cli-plugin-native-falcon-dialogs"
+          ],
+          "checked": false,
+          "installed": false
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-share",
+          "version": "2.0.5",
+          "desc": "端外分享功能",
+          "peerPlugins": [
+            "@mf2e/cli-plugin-native-falcon-dialogs",
+            "@mf2e/cli-plugin-native-falcon-utils",
+            "@mf2e/cli-plugin-native-falcon-fetch"
+          ],
+          "checked": false,
+          "installed": true
+        },
+        {
+          "name": "@mf2e/cli-plugin-native-falcon-commontab",
+          "version": "2.1.0",
+          "desc": "CommonTab滑动组件",
+          "checked": false,
+          "installed": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+    "parseStatus": 1,
+    "failReason": "",
+    "platform": "redbook",
+    "pageType": "user_profile",
+    "accountId": "xhs_88231001",
+    "nickname": "小白在法国",
+    "fansCount": 12580,
+    "isDeleted": false
+  }
+}
