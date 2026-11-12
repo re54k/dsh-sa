@@ -6,7 +6,7 @@ import { createStyles, useStyles } from '@mf2e/react-native-theme-styles'
 
 export const HelloReactNative = () => {
   const styles = useStyles(themeStyles)
-  // 累计旋转角度（度），每点击一次顺时针旋转 90°
+  // 累计旋转角度（度），每点击一次顺时针旋转 360°
   const rotate = useRef(new Animated.Value(0)).current
   const rotation = useRef(0)
   // 旋转动画进行中忽略新的点击
@@ -17,7 +17,7 @@ export const HelloReactNative = () => {
       return
     }
     isAnimating.current = true
-    rotation.current += 90
+    rotation.current += 360
     Animated.timing(rotate, {
       toValue: rotation.current,
       duration: 300,
