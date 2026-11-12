@@ -9,15 +9,23 @@ export const HelloReactNative = () => {
   // 累计旋转角度（度），每点击一次顺时针旋转 90°
   const rotate = useRef(new Animated.Value(0)).current
   const rotation = useRef(0)
+  // 旋转动画进行中忽略新的点击
+  const isAnimating = useRef(false)
 
   const handlePress = () => {
+    if (isAnimating.current) {
+      return
+    }
+    isAnimating.current = true
     rotation.current += 90
     Animated.timing(rotate, {
       toValue: rotation.current,
       duration: 300,
       easing: Easing.inOut(Easing.ease),
       useNativeDriver: true,
-    }).start()
+    }).start(() => {
+      isAnimating.current = false
+    })
   }
 
   const rotateStyle = {
