@@ -1,14 +1,42 @@
-import { View, Text } from 'react-native'
+import { useRef } from 'react'
+import { View, Text, Pressable, Animated, Easing } from 'react-native'
 import { createStyles, useStyles } from '@mf2e/react-native-theme-styles'
 // import { BaseLottie } from '@/components/base/BaseLottie'
 // import { Assets } from '@/assets'
 
 export const HelloReactNative = () => {
   const styles = useStyles(themeStyles)
+  // 累计旋转角度（度），每点击一次顺时针旋转 90°
+  const rotate = useRef(new Animated.Value(0)).current
+  const rotation = useRef(0)
+
+  const handlePress = () => {
+    rotation.current += 90
+    Animated.timing(rotate, {
+      toValue: rotation.current,
+      duration: 300,
+      easing: Easing.inOut(Easing.ease),
+      useNativeDriver: true,
+    }).start()
+  }
+
+  const rotateStyle = {
+    transform: [
+      {
+        rotate: rotate.interpolate({
+          inputRange: [0, 360],
+          outputRange: ['0deg', '360deg'],
+        }),
+      },
+    ],
+  }
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Hello React Native</Text>
+      <Pressable onPress={handlePress}>
+        <Animated.Text style={[styles.title, rotateStyle]}>Hello React Native</Animated.Text>
+      </Pressable>
+      <Text style={styles.tip}>点击文字旋转</Text>
       {/*<BaseLottie style={styles.logo} source={Assets.lottie} autoPlay loop />*/}
     </View>
   )
@@ -21,11 +49,16 @@ const themeStyles = createStyles({
     alignItems: 'center',
   },
   title: {
-    marginBottom: 100,
+    marginBottom: 24,
     width: '100%',
     fontSize: 40,
     fontWeight: 'bold',
     color: '#333',
+    textAlign: 'center',
+  },
+  tip: {
+    fontSize: 14,
+    color: '#999',
     textAlign: 'center',
   },
   logo: {
